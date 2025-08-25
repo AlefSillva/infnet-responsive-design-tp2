@@ -1,0 +1,33 @@
+#grid-principal.ex08 #header-container {
+    height: 160px;
+}
+
+#grid-principal.ex08 #menu {
+    top: 144px;
+}
+
+/* Exercício 8 */
+#grid-principal.ex08 #header-container h1 {
+    font-size: 24px;
+    padding: 5px 25px;
+}
+
+@media (min-width: 801px) {
+    #grid-principal.ex08 #header-container h1 {
+        font-size: 36px;
+    }
+
+}
+
+@media (min-width: 1201px) {
+    #grid-principal.ex08 #header-container h1 {
+        font-size: 48px;
+
+    }
+
+    #grid-principal.ex08 #header-container {
+        padding-top: 34px;
+        height: 165px;
+    }
+
+}
