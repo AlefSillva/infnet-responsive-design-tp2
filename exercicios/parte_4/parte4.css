@@ -112,3 +112,32 @@
 }
 
 /* -------------------------- */
+
+/* ---------------------------------------------------------- */
+
+@media (min-width: 1024px) {
+    #grid-principal {
+        width: calc(100vw - 10px);
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas:
+            "topo topo"
+            "menu aluno"
+            "menu exercicio"
+            "footer footer";
+    }
+
+    #menu {
+        display: flex;
+        position: static;
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        grid-area: menu;
+        right: unset; 
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+}
