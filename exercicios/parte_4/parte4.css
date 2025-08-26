@@ -35,10 +35,10 @@
 /* -------------------------- */
 
 /* Exercício 11 */
-#tema {
-    background-image: url('exercicios/assets/tema-claro.png');
-    height: 240px;
-    width: 250px;
+#exercício > #tema {
+    background-image: url('../../exercicios/assets/tema-claro.png');
+    height: 325px;
+    width: 270px;
     margin-top: 35px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,8 +76,8 @@
         color: #f5f5f5;
     }
 
-    #tema {
-        background-image: url('/exercicios/assets/tema-escuro.png');
+    #exercício > #tema {
+        background-image: url('../../exercicios/assets/tema-escuro.png');
         background-position: center;
         background-size: contain;
     }
