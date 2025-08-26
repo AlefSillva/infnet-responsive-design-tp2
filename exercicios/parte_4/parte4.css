@@ -37,15 +37,11 @@
 /* Exercício 11 */
 #tema {
     background-image: url('../assets/Season_3_Gumball.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 1rem;
-    min-height: 420px;
-    min-width: 350px;
+    height: 240px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
-    background-repeat: space;
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -82,7 +78,7 @@
     #tema {
         background-image: url('../assets/tema-escuro.png');
         background-position: center;
-        background-size: cover;
+        background-size: contain;
     }
 }
 
@@ -110,7 +106,7 @@
 @media (prefers-reduced-motion: reduce) {
     #quadrado {
         animation: none;
-        
+
     }
 }
 
