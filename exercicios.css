@@ -292,7 +292,7 @@ img {
 
 /* ---------------------------------------------------------- */
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
     #grid-principal {
         grid-template-columns: 200px 1fr;
         grid-template-areas:
@@ -314,6 +314,4 @@ img {
     #toggle-menu {
         display: none;
     }
-
-
 }
