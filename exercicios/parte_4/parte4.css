@@ -39,6 +39,7 @@
     background-image: url('/exercicios/assets/tema-claro.png');
     height: 240px;
     width: 250px;
+    margin-top: 35px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
