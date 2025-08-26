@@ -28,7 +28,7 @@ img {
         "exercicio"
         "footer";
     gap: 5px;
-
+    min-width: 350px;
     width: 100%;
     min-height: 100%;
 }
@@ -231,6 +231,13 @@ img {
     display: block;
 }
 
+#aviso {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* ------------------------------- */
 
 /* Exercício 6 */
@@ -285,7 +292,7 @@ img {
 
 /* ---------------------------------------------------------- */
 
-@media (min-width: 769px) {
+@media (min-width: 1024) {
     #grid-principal {
         grid-template-columns: 200px 1fr;
         grid-template-areas:

@@ -159,7 +159,7 @@ footer {
 
 /* ---------------------------------------------------------- */
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
     #grid-principal {
         width: calc(100vw - 10px);
         grid-template-columns: 200px 1fr;

@@ -35,7 +35,6 @@
 /* -------------------------- */
 
 /* Exercício 11 */
-/* Exercício 11 - Tema escuro */
 @media (prefers-color-scheme: dark) {
     #grid-principal {
         background-color: #121212;
