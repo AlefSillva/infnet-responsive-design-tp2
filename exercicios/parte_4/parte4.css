@@ -35,7 +35,7 @@
 /* -------------------------- */
 
 /* Exercício 11 */
-#exercício > #tema {
+#tema {
     background-image: url('../../exercicios/assets/tema-claro.png');
     height: 325px;
     width: 270px;
@@ -76,7 +76,7 @@
         color: #f5f5f5;
     }
 
-    #exercício > #tema {
+    #tema {
         background-image: url('../../exercicios/assets/tema-escuro.png');
         background-position: center;
         background-size: contain;
