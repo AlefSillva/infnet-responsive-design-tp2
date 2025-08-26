@@ -108,7 +108,7 @@ body {
 }
 
 #menu a:hover {
-    background-color: var(--hover-menu);
+    background-color: var(--hover);
 }
 
 #aluno {
