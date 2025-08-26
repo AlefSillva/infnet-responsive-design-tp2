@@ -36,7 +36,7 @@
 
 /* Exercício 11 */
 #tema {
-    background-image: url('../assets/Season_3_Gumball.png');
+    background-image: url('/exercicios/assets/Season_3_Gumball.PNG');
     height: 240px;
     width: 250px;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@
     }
 
     #tema {
-        background-image: url('../assets/tema-escuro.png');
+        background-image: url('/exercicios/assets/tema-escuro.png');
         background-position: center;
         background-size: contain;
     }
